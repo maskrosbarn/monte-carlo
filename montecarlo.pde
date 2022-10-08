@@ -76,8 +76,6 @@ void draw ()
     fill(0);
     textSize(20);
     text(SIMULATION_DESCRIPTION, 10, height - 10);
-
-    saveFrame("frames/mc-######.jpg");
 }
 
 
