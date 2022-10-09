@@ -152,11 +152,11 @@ void drawHistogram (int currentTime, int binCount, float[][] simulationPaths)
 
         stroke(255, 0, 0);
         line(x, currentValueMeanYValue, width, currentValueMeanYValue);
-
-        noStroke();
-        fill(255, 0, 0);
-        text(String.format("μ(t) = %.2f", currentValueMean), x + 5, currentValueMeanYValue - 5);
     }
+
+    noStroke();
+    fill(255, 0, 0);
+    text(String.format("μ(t) = %.2f", currentValueMean), x + 5, currentValueMeanYValue - 5);
 }
 
 
